@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Initial Template</title>
+    
+    <link rel="stylesheet" href="./assets/dist/styles/site.min.css">
+</head>
+<body id="body">
+    <section class="webdoor">
+        <div class="text-center bg-webdoor">
+            <img src="./assets/dist/images/webdoor.webp" class="img-fluid" alt="">
+        </div>
+        <header>
+            <nav id="navbar" class="nav-bar" >
+                <div  class="d-none d-md-flex text-uppercase justify-content-center align-items-center">
+                    <a href="#friends" class="pb-3 mx-4">the friends clinic</a>
+                    <a href="#vida" class="pb-3 mx-4">clínica vida</a>
+                    <a href="#contato" class="pb-3 mx-4">contato</a>
+                </div>                
+                <button class="px-3 text-uppercase navbar-toggle" id="navbar-toggle">
+                    menu
+                </button>
+                <div class="mobile-menu" id="mobile-menu">
+                    <button class="pr-3 close-menu">X</button>
+                    <a class="pl-3 mt-4 mobile-item" href="#friends">the friends clinic</a>
+                    <a class="pl-3 mt-4 mobile-item" href="#vida">clínica vida</a>
+                    <a class="pl-3 mt-4 mobile-item" href="#contato">contato</a>
+                </div>
+            </nav>
+        </header>
+    </section>
+    <section class="about mt-5">
+        <div class="container">
+            <div class="text-center">
+                <!--about desktop -->
+                <div class="d-none d-lg-flex justify-content-center">
+                    <div class="box border-default position-relative mx-3">
+                        <div class="box__logos  my-4 mx-5">
+                            <img class="img-fluid" src="./assets/dist/images/logo_thefriends.webp" alt="Logo the friends">
+                        </div>
+                        <div class="box__text">
+                            <p class="text-uppercase">the friends clinic</p>
+                        </div>                        
+                    </div>
+                    <div class="box border-default position-relative mx-3">
+                        <div class="box__logos my-4 mx-5">
+                            <img class="img-fluid" src="./assets/dist/images/logo_thefriends.webp" alt="Logo the friends">
+                        </div>
+                        <div class="box__text">
+                            <p class="text-uppercase">clínica vida </p>
+                            <p>Fisioterapia Integrativa</p>
+                        </div>                        
+                    </div>
+                </div>    
+                <!-- end about desktop -->
+                <!-- carousel about mobile -->
+                <div class="swiper swiper-about d-lg-none">
+                    <div class="swiper-wrapper w-100">
+                        <div class="swiper-slide ">
+                            <div class="box border-default position-relative">
+                                <div class="box__logos my-4">
+                                    <img class="img-fluid" src="./assets/dist/images/logo_thefriends.webp" alt="Logo the friends">
+                                </div>
+                                <div class="box__text">
+                                    <p class="text-uppercase">the friends clinic</p>
+                                </div>                        
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box border-default position-relative">
+                                <div class="box__logos  my-4">
+                                    <img class="img-fluid" src="./assets/dist/images/logo_thefriends.webp" alt="Logo the friends">
+                                </div>
+                                <div class="box__text">
+                                    <p class="text-uppercase">the friends clinic</p>
+                                </div>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end carousel about mobile -->
+
+                <div>
+                    <h1 class="about__title">Para você que procura tranquilidade, segurança, rapidez e consulta com dia e horário marcado</h1>
+                </div>     
+            </div>
+        </div>
+    </section>
+
+    <section id="friends" class="friends py-lg-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-5 left text-center">
+                    <h2 class="text-uppercase left__title pt-4">the friends clinic</h2>
+                    <div class="left__img border-default mt-3">
+                        <img class="img-fluid" src="./assets/dist/images/clinica.webp" alt="">
+                    </div>    
+                    <p class="pt-4 left__text">A coisa mais importante, <br>cuidar-se da sua saúde!</p>
+                    <p class="mt-3 left__text mt-2 mb-2 my-lg-0">99124-5360 e 94711-1739</p>                
+                </div>
+                <!-- mobile slide icons  -->
+                <div class="swiper swiper-life d-lg-none pb-4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/temperatura.svg" alt="temperatura">
+                                </div>    
+                                <p class="mt-3 text-center  right__text">temperatura</p>                          
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/controles_vitais.svg" alt="controle de sinais vitais">
+                                </div> 
+                                <p class="mt-3 text-center  right__text">controle de sinais vitais</p>                                                                           
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons ">
+                                    <img class="img-fluid" src="./assets/dist/images/peso_altura.svg" alt="peso e altura">
+                                </div>      
+                                <p class="mt-3 text-center  right__text">peso e altura</p>  
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/psicologia.svg" alt="psicologia">
+                                </div>       
+                                <p class="mt-3 text-center  right__text">psicologia</p>   
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/glicemia.svg" alt="teste de glicemia">
+                                </div> 
+                                <p class="mt-3 text-center  right__text">teste de glicemia</p>  
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/teste rapido.svg" alt="testes rápidos">
+                                </div>    
+                                <p class="mt-3 text-center  right__text">testes rápidos</p>                                  
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons ">
+                                    <img class="img-fluid" src="./assets/dist/images/vacina.svg" alt="vacina">
+                                </div>      
+                                <p class="mt-3 text-center  right__text">vacina</p>  
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/nutricionista.svg" alt="nutricionista">
+                                </div>       
+                                <p class="mt-3 text-center  right__text">nutricionista</p>                              
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/curativos.svg" alt="curativos">
+                                </div> 
+                                <p class="mt-3 text-center  right__text">curativos</p>  
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/tratamento_feridas.svg" alt="tratamento de feridas">
+                                </div>    
+                                <p class="mt-3 text-center  right__text">tratamento de feridas</p>                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons ">
+                                    <img class="img-fluid" src="./assets/dist/images/medicacao.svg" alt="medicação im, sc e ev">
+                                </div>      
+                                <p class="mt-3 text-center  right__text">medicação im, sc e ev</p>                                  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <!-- end mobile slide icons  -->
+                <!-- desktop slide icons  -->
+                <div class="d-none d-lg-block col-lg-7 right">
+                    <div class="row border text-uppercase">
+                        <div class="col-3 border__top p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/controles_vitais.svg" alt="controle de sinais vitais">
+                            </div> 
+                            <p class="mt-3 text-center">controle de sinais vitais</p>                           
+                        </div>
+                        <div class="col-3 border__top p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/temperatura.svg" alt="temperatura">
+                            </div>    
+                            <p class="mt-3 text-center">temperatura</p>                                                   
+                        </div>
+                        <div class="col-3 border__top p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons ">
+                                <img class="img-fluid" src="./assets/dist/images/peso_altura.svg" alt="peso e altura">
+                            </div>      
+                            <p class="mt-3 text-center">peso e altura</p>                                                 
+                        </div>
+                        <div class="col-3 border__top p-2 pt-4 border__bottom border__left border__right">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/psicologia.svg" alt="psicologia">
+                            </div>       
+                            <p class="mt-3 text-center">psicologia</p>                                                
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/glicemia.svg" alt="teste de glicemia">
+                            </div> 
+                            <p class="mt-3 text-center">teste de glicemia</p>                           
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/teste rapido.svg" alt="testes rápidos">
+                            </div>    
+                            <p class="mt-3 text-center">testes rápidos</p>                                                   
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons ">
+                                <img class="img-fluid" src="./assets/dist/images/vacina.svg" alt="vacina">
+                            </div>      
+                            <p class="mt-3 text-center">vacina</p>                                                 
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left border__right">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/nutricionista.svg" alt="nutricionista">
+                            </div>       
+                            <p class="mt-3 text-center">nutricionista</p>                                                
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/curativos.svg" alt="curativos">
+                            </div> 
+                            <p class="mt-3 text-center">curativos</p>                           
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/tratamento_feridas.svg" alt="tratamento de feridas">
+                            </div>    
+                            <p class="mt-3 text-center">tratamento de feridas</p>                                                   
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left border__right">
+                            <div class="right__icons ">
+                                <img class="img-fluid" src="./assets/dist/images/medicacao.svg" alt="medicação im, sc e ev">
+                            </div>      
+                            <p class="mt-3 text-center">medicação im, sc e ev</p>                                                 
+                        </div>
+                    </div>
+                            
+                </div>
+                <!-- end desktop slide icons  -->
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="vida" class="life-clinic mt-4 py-lg-5">
+        <div class="container">
+            <div class="row flex-lg-row-reverse justify-content-between">
+                <div class="col-12 col-lg-5 left text-center">
+                    <h2 class="text-uppercase left__title pt-4">clínica vida</h2>
+                    <div class="left__img border-default mt-3">
+                        <img class="img-fluid" src="./assets/dist/images/clinica-vida.webp" alt="">
+                    </div>    
+                    <p class="pt-4 left__text mb-3">saúde integrativa, nosso paciente<br>como um todo!</p>                    
+                </div>
+                <!-- mobile slide icons  -->
+                <div class="swiper swiper-life d-lg-none pb-4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/ozonoterapia.svg" alt="ozonioterapia">
+                                </div> 
+                                <p class="mt-3 text-center right__text">ozonioterapia</p>                           
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/plasma.svg" alt="plasma rico em plaquetas prp">
+                                </div>    
+                                <p class="mt-3 text-center right__text">plasma rico em<br> plaquetas prp</p>                                                                             
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons ">
+                                    <img class="img-fluid" src="./assets/dist/images/soroterapia.svg" alt="soroterapia">
+                                </div>      
+                                <p class="mt-3 text-center right__text">soroterapia</p>  
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/pilates.svg" alt="pilates">
+                                </div>       
+                                <p class="mt-3 text-center right__text">pilates</p>    
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/ginecologia.svg" alt="ginegologia">
+                                </div> 
+                                <p class="mt-3 text-center right__text">ginegologia</p>  
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/secagem.svg" alt="secagem de vasos / escleoterapia">
+                                </div>    
+                                <p class="mt-3 text-center right__text">secagem de vasos /<br> escleoterapia</p>                                  
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/botox.svg" alt="botox">
+                                </div>       
+                                <p class="mt-3 text-center right__text">botox</p>   
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/acido.svg" alt="ácido hialurônico">
+                                </div>    
+                                <p class="mt-3 text-center right__text">ácido hialurônico</p>                                 
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons ">
+                                    <img class="img-fluid" src="./assets/dist/images/pelling.svg" alt="peeling">
+                                </div>      
+                                <p class="mt-3 text-center right__text">peeling</p>  
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/full.svg" alt="full reduz queima de gordura localizada">
+                                </div>       
+                                <p class="mt-3 text-center right__text">full reduz queima de<br> gordura localizada</p>                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/terapeuta.svg" alt="terapeuta">
+                                </div> 
+                                <p class="mt-3 text-center right__text">terapeuta</p>                                  
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons">
+                                    <img class="img-fluid" src="./assets/dist/images/quiropraxia.svg" alt="quiropraxia">
+                                </div>    
+                                <p class="mt-3 text-center right__text">quiropraxia</p>                                 
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="border__top p-2 pt-4 border__bottom border__left">
+                                <div class="right__icons ">
+                                    <img class="img-fluid" src="./assets/dist/images/coleta.svg" alt="coleta de exames laborais">
+                                </div>      
+                                <p class="mt-3 text-center right__text">coleta de <br>exames laborais</p>                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <!-- end mobile slide icons  -->
+                <!-- desktop slide icons  -->
+                <div class="d-none d-lg-block col-lg-7 right">
+                    <div class="row border text-uppercase">
+                        <div class="col-3 border__top p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/ozonoterapia.svg" alt="ozonioterapia">
+                            </div> 
+                            <p class="mt-3 text-center">ozonioterapia</p>                           
+                        </div>
+                        <div class="col-3 border__top p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/plasma.svg" alt="plasma rico em plaquetas prp">
+                            </div>    
+                            <p class="mt-3 text-center">plasma rico em plaquetas prp</p>                                                   
+                        </div>
+                        <div class="col-3 border__top p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons ">
+                                <img class="img-fluid" src="./assets/dist/images/soroterapia.svg" alt="soroterapia">
+                            </div>      
+                            <p class="mt-3 text-center">soroterapia</p>                                                 
+                        </div>
+                        <div class="col-3 border__top p-2 pt-4 border__bottom border__left border__right">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/pilates.svg" alt="pilates">
+                            </div>       
+                            <p class="mt-3 text-center">pilates</p>                                                
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/ginecologia.svg" alt="ginegologia">
+                            </div> 
+                            <p class="mt-3 text-center">ginegologia</p>                           
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/secagem.svg" alt="secagem de vasos / escleoterapia">
+                            </div>    
+                            <p class="mt-3 text-center">secagem de vasos / escleoterapia</p>                                                   
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/botox.svg" alt="botox">
+                            </div>       
+                            <p class="mt-3 text-center">botox</p>                                                
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left border__right">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/acido.svg" alt="ácido hialurônico">
+                            </div>    
+                            <p class="mt-3 text-center">ácido hialurônico</p>                                                   
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons ">
+                                <img class="img-fluid" src="./assets/dist/images/pelling.svg" alt="peeling">
+                            </div>      
+                            <p class="mt-3 text-center">peeling</p>                                                 
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/full.svg" alt="full reduz queima de gordura localizada">
+                            </div>       
+                            <p class="mt-3 text-center">full reduz queima de gordura localizada</p>                                                
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/terapeuta.svg" alt="terapeuta">
+                            </div> 
+                            <p class="mt-3 text-center">terapeuta</p>                           
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left border__right">
+                            <div class="right__icons">
+                                <img class="img-fluid" src="./assets/dist/images/quiropraxia.svg" alt="quiropraxia">
+                            </div>    
+                            <p class="mt-3 text-center">quiropraxia</p>                                                   
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__bottom border__left">
+                            <div class="right__icons ">
+                                <img class="img-fluid" src="./assets/dist/images/coleta.svg" alt="coleta de exames laborais">
+                            </div>      
+                            <p class="mt-3 text-center">coleta de exames laborais</p>                                                 
+                        </div>
+                        <div class="col-3 p-2 pt-4 border__left">                                               
+                        </div>
+                    </div>
+                            
+                </div>
+                <!-- end desktop slide icons  -->
+            </div>
+            
+        </div>
+    </section>
+
+    <footer id="contato" class="footer mt-5 pb-5">
+        <div class="container">
+            <h2 class="text-uppercase text-center py-4 text-white">Fale conosco</h2>
+            <form class="custom-form">
+                <div class="form-group">                     
+                    <input type="text" class="form-control custom-form-control" id="nome" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">                     
+                    <input type="email" class="form-control custom-form-control" id="email" placeholder="Digite seu email">
+                </div>
+                <div class="form-group">                     
+                    <input type="tel" class="form-control custom-form-control" id="telefone" placeholder="Digite seu telefone">
+                </div>
+                <div class="form-group">                     
+                    <select class="form-control custom-form-control" id="clinica">
+                    <option value="friends">Friends</option>
+                    <option value="estetica">Estética</option>
+                    </select>
+                </div>
+                <div class="form-group">                     
+                    <input type="text" class="form-control custom-form-control" id="servico" placeholder="Digite o nome do serviço">
+                </div>
+                <button type="submit" class="btn btn-send w-100">Enviar</button>
+                </form>
+        </div>
+        
+
+    </footer>
+
+    <script async defer src="./assets/dist/scripts/main.js"></script>
+</body>
+</html>
