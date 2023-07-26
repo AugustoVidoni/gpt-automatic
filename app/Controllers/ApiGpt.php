@@ -24,9 +24,9 @@ class ApiGpt extends BaseController
 
             // Aqui você pode fazer o tratamento dos dados recebidos
             // Por exemplo, exibir os dados em uma página de resposta
-            // echo "Pergunta: " . $pergunta ;
-            // echo "URL: " . $url;
-            // echo "Tag HTML: " . $tag_html ; 
+                // echo "Pergunta: " . $pergunta ;
+                // echo "URL: " . $url;
+                // echo "Tag HTML: " . $tag_html ; 
 
             
 
